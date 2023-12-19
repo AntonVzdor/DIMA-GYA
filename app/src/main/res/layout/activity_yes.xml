@@ -9,7 +9,6 @@
 
     <TextView
         android:text="@string/YesYes"
-        android:textSize="25sp"
         style="@style/mainQuestion"/>
 
     <ImageView
