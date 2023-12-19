@@ -8,6 +8,7 @@
     android:orientation="vertical">
 
     <TextView
+        android:text="@string/DIMA"
         style="@style/mainQuestion"/>
 
     <ImageView
