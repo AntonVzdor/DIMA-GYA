@@ -9,7 +9,9 @@
 
     <TextView
         android:text="@string/NoNo"
-        style="@style/mainQuestion"/>
+        style="@style/mainQuestion"
+        android:textSize="30sp"
+        android:layout_marginStart="65dp"/>
 
     <ImageView
         style="@style/imageMain"
