@@ -3,4 +3,6 @@
     <string name="DIMA">ДИМА ГЕЙ?</string>
     <string name="YES">ДА </string>
     <string name="NO">НЕТ</string>
+    <string name="NoNo">ОТВЕТ НЕ ВЕРНЫЙ!</string>
+    <string name="YesYes">ОТВЕТ ВЕРНЫЙ!</string>
 </resources>
