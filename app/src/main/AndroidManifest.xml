@@ -21,6 +21,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".YesActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".NoActivity"
+            android:exported="true"/>
     </application>
 
 </manifest>
