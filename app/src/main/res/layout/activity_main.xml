@@ -26,7 +26,7 @@
             android:id="@+id/YES"
             android:layout_marginStart="55dp"
             android:text="@string/YES"
-            style="@style/bottonMain"
+            style="@style/buttonMain"
             app:icon="@drawable/baseline_wb_sunny_24"
             app:iconGravity="textStart"
             app:iconPadding="8dp" />
@@ -35,7 +35,7 @@
             android:id="@+id/NO"
             android:layout_marginStart="40dp"
             android:text="@string/NO"
-            style="@style/bottonMain"
+            style="@style/buttonMain"
             app:icon="@drawable/baseline_wb_twilight_24"
             app:iconGravity="textStart"
             app:iconPadding="8dp"/>

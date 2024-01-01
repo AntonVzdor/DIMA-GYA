@@ -7,19 +7,43 @@
         <item name="android:layout_marginStart">90dp</item>
         <item name="android:textSize">40sp</item>
     </style>
-
     <style name="imageMain">
         <item name="android:layout_width">300dp</item>
         <item name="android:layout_height">300dp</item>
         <item name="android:layout_marginStart">55dp</item>
         <item name="android:src">@drawable/test_image</item>
     </style>
-
-    <style name="bottonMain" parent="ShapeAppearanceOverlay.Material3.Button">
+    <style name="buttonMain" parent="ShapeAppearanceOverlay.Material3.Button">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">30sp</item>
         <item name="android:textColor">@color/textColor</item>
         <item name="android:backgroundTint">@color/bottonColor</item>
+    </style>
+
+    <style name="answersText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">90dp</item>
+        <item name="android:layout_marginStart">90dp</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="answersImage">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">300dp</item>
+        <item name="android:layout_marginStart">55dp</item>
+        <item name="android:src">@drawable/test_image</item>
+    </style>
+
+    <style name="toolbarBack">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:layout_marginBottom">24dp</item>
+    </style>
+    <style name="textToolbarBack">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/Back</item>
+        <item name="android:textSize">30sp</item>
     </style>
 </resources>

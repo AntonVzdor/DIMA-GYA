@@ -5,16 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:ignore="UseCompoundDrawables">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/back"
+        style="@style/toolbarBack"
+        app:navigationIcon="@drawable/baseline_arrow_back_ios_24">
+
+        <TextView
+            style="@style/textToolbarBack"/>
+
+    </androidx.appcompat.widget.Toolbar>
 
     <TextView
         android:text="@string/NoNo"
-        style="@style/mainQuestion"
-        android:textSize="30sp"
+        style="@style/answersText"
         android:layout_marginStart="65dp"/>
 
     <ImageView
-        style="@style/imageMain"
+        style="@style/answersImage"
         tools:ignore="ImageContrastCheck"
         android:importantForAccessibility="no" />
 </LinearLayout>

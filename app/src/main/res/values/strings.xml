@@ -5,4 +5,5 @@
     <string name="NO">НЕТ</string>
     <string name="NoNo">ОТВЕТ НЕ ВЕРНЫЙ!</string>
     <string name="YesYes">ОТВЕТ ВЕРНЫЙ!</string>
+    <string name="Back">Назад</string>
 </resources>
