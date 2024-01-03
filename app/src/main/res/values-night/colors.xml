@@ -5,4 +5,5 @@
     <color name="textColor">#FF000000</color>
     <color name="bottonColor">#FFFFFFFF</color>
     <color name="iconColor">#FF000000</color>
+    <color name="arrowBack">#FFFFFFFF</color>
 </resources>
